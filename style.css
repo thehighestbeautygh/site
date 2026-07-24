@@ -810,3 +810,71 @@ font-weight:400;
 max-width:850px;
 
 }
+.hero h1{
+color:#2b1b14;
+text-shadow:0 3px 10px rgba(255,255,255,.6);
+}
+
+.hero p{
+color:#4a3428;
+font-weight:500;
+}
+.why-grid{
+gap:20px;
+}
+
+.card{
+background:#fff;
+border:2px solid #6d1f3a;
+border-radius:18px;
+padding:22px;
+min-height:180px;
+box-shadow:0 8px 25px rgba(109,31,58,.15);
+}
+
+.card h3{
+color:#111;
+font-size:22px;
+}
+
+.card p{
+color:#333;
+font-size:14px;
+}
+p{
+color:#111;
+}
+
+section p{
+color:#222;
+}
+.founder-box{
+background:#fff;
+color:#111;
+}
+
+.founder-box:nth-child(2){
+border:3px solid #2b6cb0;
+background:#f4f8ff;
+}
+
+.founder-box:nth-child(3){
+border:3px solid #e8a0b5;
+background:#fff5f8;
+}
+
+.founder-box h3{
+color:#111;
+}
+.card,
+.founder-box,
+.beauty-left,
+.beauty-right{
+transition:.4s ease;
+}
+
+.card:hover,
+.founder-box:hover{
+transform:translateY(-8px);
+}
+
