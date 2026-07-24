@@ -8,18 +8,12 @@ scroll-behavior:smooth;
 }
 
 body{
-
 font-family:'Poppins',sans-serif;
-
-background:
-linear-gradient(rgba(8,8,8,.95),rgba(18,18,18,.96));
-
-color:white;
-
+background:#fffaf5;
+color:#333;
 overflow-x:hidden;
-
 line-height:1.8;
-
+font-weight:400;
 }
 
 body::before{
@@ -112,6 +106,10 @@ font-family:'Cormorant Garamond',serif;
 
 letter-spacing:1px;
 
+color:#3b2a20;
+
+font-weight:600;
+
 }
 
 section{
@@ -154,7 +152,7 @@ font-size:34px;
 
 font-weight:700;
 
-color:#d4af37;
+color:#9b7653;
 
 }
 
@@ -182,7 +180,7 @@ font-weight:500;
 
 .navbar a:hover{
 
-color:#d4af37;
+color:#9b7653;
 
 }
 
@@ -280,7 +278,7 @@ padding:15px 38px;
 
 border:2px solid #d4af37;
 
-color:#d4af37;
+color:#9b7653;
 
 text-decoration:none;
 
@@ -321,7 +319,7 @@ transform:translateY(0);
 h2{
 text-align:center;
 font-size:52px;
-color:#d4af37;
+color:#9b7653;
 margin-bottom:25px;
 }
 
@@ -427,8 +425,7 @@ margin-top:50px;
 
 .beauty-left,
 .beauty-right{
-
-background:rgba(255,255,255,.05);
+background:#ffffff;
 
 padding:35px;
 
@@ -484,7 +481,7 @@ margin-bottom:15px;
 
 .lash-card{
 
-background:#151515;
+background:#fff;
 
 padding:20px;
 
@@ -518,7 +515,7 @@ margin-top:50px;
 
 .perfume-card{
 
-background:#151515;
+background:#ffffff;
 
 padding:22px;
 
@@ -554,7 +551,7 @@ margin-bottom:18px;
 
 .perfume-card h3{
 
-color:#d4af37;
+color:#9b7653;
 
 margin-bottom:12px;
 
@@ -607,7 +604,7 @@ box-shadow:0 20px 40px rgba(212,175,55,.25);
 
 font-size:45px;
 
-color:#d4af37;
+color:#9b7653;
 
 margin-bottom:10px;
 
@@ -637,7 +634,7 @@ font-size:18px;
 
 .contact a{
 
-color:#d4af37;
+color:#9b7653;
 
 text-decoration:none;
 
@@ -790,5 +787,26 @@ scroll-behavior:smooth;
 background:#d4af37;
 
 color:black;
+
+}
+p{
+
+color:#555;
+
+font-size:16px;
+
+font-weight:400;
+
+line-height:1.8;
+
+}
+
+.section-intro{
+
+color:#666;
+
+font-weight:400;
+
+max-width:850px;
 
 }
