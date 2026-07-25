@@ -1149,3 +1149,96 @@ background:#5C1630 !important;
 transform:translateY(-2px);
 
 }
+/* ===== Premium Developer Section ===== */
+
+.developer{
+
+max-width:850px;
+
+margin:90px auto;
+
+padding:45px;
+
+background:linear-gradient(135deg,#ffffff,#fff7fb);
+
+border:2px solid #7B1E3B;
+
+border-radius:24px;
+
+text-align:center;
+
+box-shadow:0 12px 30px rgba(123,30,59,.12);
+
+animation:floatCard 5s ease-in-out infinite;
+
+transition:.4s;
+
+}
+
+.developer:hover{
+
+transform:translateY(-8px);
+
+box-shadow:0 20px 40px rgba(123,30,59,.22);
+
+}
+
+.developer h2{
+
+font-size:34px;
+
+color:#7B1E3B;
+
+margin-bottom:18px;
+
+}
+
+.developer p{
+
+font-size:17px;
+
+color:#111;
+
+line-height:1.8;
+
+margin-bottom:15px;
+
+}
+
+.developer strong{
+
+color:#7B1E3B;
+
+font-size:20px;
+
+}
+
+.developer .btn{
+
+margin-top:20px;
+
+display:inline-block;
+
+}
+
+@keyframes floatCard{
+
+0%{
+
+transform:translateY(0px);
+
+}
+
+50%{
+
+transform:translateY(-8px);
+
+}
+
+100%{
+
+transform:translateY(0px);
+
+}
+
+}
