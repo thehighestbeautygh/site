@@ -120,6 +120,8 @@ padding:90px 8%;
 
 .navbar{
 
+.navbar{
+
 position:fixed;
 
 top:0;
@@ -136,23 +138,21 @@ align-items:center;
 
 padding:18px 8%;
 
-background:rgba(0,0,0,.75);
+background:#6F1D38;
 
-backdrop-filter:blur(18px);
+backdrop-filter:blur(12px);
+
+border-bottom:2px solid #8A2C50;
 
 z-index:999;
-
-border-bottom:1px solid rgba(212,175,55,.15);
 
 }
 
 .logo{
 
-font-size:34px;
+color:white;
 
 font-weight:700;
-
-color:#9b7653;
 
 }
 
@@ -168,13 +168,21 @@ list-style:none;
 
 .navbar a{
 
-text-decoration:none;
-
-color:white;
-
-transition:.35s;
+color:#FFF8F5;
 
 font-weight:500;
+
+text-decoration:none;
+
+transition:.3s;
+
+}
+
+.navbar a:hover{
+
+color:#FFD8E6;
+
+}
 
 }
 
