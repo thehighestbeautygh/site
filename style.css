@@ -1000,3 +1000,20 @@ color:#000;
 line-height:1.8;
 
 }
+/* About Us & Our Story */
+
+.about p,
+.founders p,
+.section-intro{
+
+color:#111111 !important;
+
+font-size:17px;
+
+font-weight:400;
+
+line-height:1.9;
+
+letter-spacing:0.3px;
+
+}
