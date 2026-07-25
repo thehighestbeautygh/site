@@ -877,4 +877,87 @@ transition:.4s ease;
 .founder-box:hover{
 transform:translateY(-8px);
 }
+/* ===== FINAL POLISH ===== */
 
+/* Hero Box */
+.overlay{
+    background:rgba(255,255,255,0.95);
+    border:2px solid #7B1E3B;
+    border-radius:25px;
+    padding:50px;
+    max-width:900px;
+    margin:auto;
+}
+
+.hero h1{
+    color:#000;
+    text-shadow:none;
+    font-size:60px;
+}
+
+.hero p{
+    color:#000;
+    font-size:18px;
+    font-weight:400;
+}
+
+/* Why Choose Us */
+.card{
+    background:#fff;
+    border:2px solid #7B1E3B;
+    border-radius:18px;
+    padding:20px;
+}
+
+.card h3{
+    color:#000;
+    font-size:20px;
+    margin-bottom:10px;
+}
+
+.card p{
+    color:#000;
+    font-size:15px;
+    line-height:1.6;
+}
+
+/* Lash Cards */
+.lash-card{
+    background:#fff8fc;
+    border:2px solid #F4A3C4;
+    border-radius:18px;
+    padding:18px;
+}
+
+.lash-card h3{
+    color:#000;
+    text-decoration:underline;
+    text-decoration-color:#F4A3C4;
+}
+
+.lash-card p{
+    color:#000;
+}
+
+/* Founder Cards */
+.founder-box:first-of-type{
+    border:2px solid #4A90E2;
+    background:#F4F9FF;
+}
+
+.founder-box:last-of-type{
+    border:2px solid #F4A3C4;
+    background:#FFF7FB;
+}
+
+/* Perfume Descriptions */
+.perfume-card p{
+    color:#000;
+}
+
+/* General Text */
+body,
+p,
+li{
+    color:#000;
+}
