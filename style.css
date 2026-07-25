@@ -861,15 +861,6 @@ background:#fff;
 color:#111;
 }
 
-.founder-box:nth-child(2){
-border:3px solid #2b6cb0;
-background:#f4f8ff;
-}
-
-.founder-box:nth-child(3){
-border:3px solid #e8a0b5;
-background:#fff5f8;
-}
 
 .founder-box h3{
 color:#111;
@@ -1288,14 +1279,12 @@ background:#F4F9FF !important;
 border:2px solid #4A90E2 !important;
 
 }
-
 .founder-box:last-of-type{
-
-background:#FFF6FA !important;
-
-border:2px solid #F4A3C4 !important;
-
+    background:#FFEAF3 !important;
+    border:3px solid #F472B6 !important;
+    box-shadow:0 8px 24px rgba(244,114,182,.18);
 }
+
 /* ===== Perfume Card Titles ===== */
 
 .perfume-card h3{
