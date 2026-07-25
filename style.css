@@ -1088,3 +1088,29 @@ a{
     text-decoration-color:#000000 !important;
     color:#000000 !important;
 }
+/* FINAL NAVBAR LAYOUT FIX */
+
+.navbar{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.navbar ul{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    gap:30px;
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+
+.navbar li{
+    display:inline-block;
+}
+
+.navbar a{
+    white-space:nowrap;
+}
