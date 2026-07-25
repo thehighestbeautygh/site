@@ -961,3 +961,42 @@ p,
 li{
     color:#000;
 }
+.developer{
+
+margin:80px auto;
+
+max-width:800px;
+
+text-align:center;
+
+background:#fff;
+
+padding:35px;
+
+border:2px solid #7B1E3B;
+
+border-radius:22px;
+
+box-shadow:0 10px 25px rgba(123,30,59,.12);
+
+}
+
+.developer h2{
+
+font-size:32px;
+
+color:#000;
+
+margin-bottom:15px;
+
+}
+
+.developer p{
+
+font-size:16px;
+
+color:#000;
+
+line-height:1.8;
+
+}
