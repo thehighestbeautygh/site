@@ -1036,3 +1036,55 @@ text-decoration:underline;
 text-decoration-color:#000;
 
 }
+/* ===== FINAL NAVIGATION BAR FIX ===== */
+
+.navbar{
+    background:#6F1D38 !important;
+    border-bottom:2px solid #8A2C50;
+    backdrop-filter:none !important;
+    -webkit-backdrop-filter:none !important;
+    box-shadow:0 8px 25px rgba(111,29,56,0.25);
+}
+
+.navbar .logo{
+    color:#ffffff !important;
+}
+
+.navbar a,
+.navbar ul li a{
+    color:#FFF8F5 !important;
+    text-decoration:none !important;
+    font-weight:500;
+}
+
+.navbar a:hover,
+.navbar ul li a:hover{
+    color:#F8C8DC !important;
+}
+
+
+/* Remove unwanted blue link appearance */
+
+a{
+    color:inherit;
+}
+
+
+/* Hero text improvement */
+
+.hero h1{
+    color:#3A0F1C !important;
+}
+
+.hero p{
+    color:#111111 !important;
+}
+
+
+/* Lash underline */
+
+.lash-card h3{
+    text-decoration:underline;
+    text-decoration-color:#000000 !important;
+    color:#000000 !important;
+}
