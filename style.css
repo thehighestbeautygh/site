@@ -1339,3 +1339,23 @@ margin-bottom:10px;
 line-height:1.7;
 
 }
+/* ===== Elizabeth Pink Card ===== */
+
+.founder-box.elizabeth{
+    background:#FFEAF3 !important;
+    border:3px solid #F472B6 !important;
+    box-shadow:0 10px 30px rgba(244,114,182,.25) !important;
+}
+
+.founder-box.elizabeth h3{
+    color:#000 !important;
+}
+
+.founder-box.elizabeth p{
+    color:#111 !important;
+}
+
+.founder-box.elizabeth .founder-role{
+    color:#C2185B !important;
+}
+
