@@ -1081,10 +1081,13 @@ a{
 }
 
 
-/* Lash underline */
 
 .lash-card h3{
-    text-decoration:underline;
+color:#000;
+font-size:22px;
+font-weight:600;
+margin-bottom:10px;
+}
     text-decoration-color:#000000 !important;
     color:#000000 !important;
 }
@@ -1113,4 +1116,36 @@ a{
 
 .navbar a{
     white-space:nowrap;
+}
+
+/* ===== FINAL BUTTON STYLE ===== */
+
+.btn{
+
+display:inline-block !important;
+
+padding:8px 18px;
+
+background:#7B1E3B !important;
+
+color:#fff !important;
+
+border-radius:30px !important;
+
+font-size:15px !important;
+
+font-weight:500 !important;
+
+text-decoration:none !important;
+
+transition:.3s ease;
+
+}
+
+.btn:hover{
+
+background:#5C1630 !important;
+
+transform:translateY(-2px);
+
 }
