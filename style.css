@@ -1242,3 +1242,40 @@ transform:translateY(0px);
 }
 
 }
+/* ===== Founder Name Style ===== */
+
+.founder-box h3{
+
+font-size:24px;
+
+font-weight:600;
+
+color:#000;
+
+line-height:1.3;
+
+margin-bottom:10px;
+
+letter-spacing:0;
+
+word-spacing:0;
+
+}
+
+.founder-role{
+
+display:block;
+
+margin-top:6px;
+
+font-size:15px;
+
+font-weight:500;
+
+color:#7B1E3B;
+
+letter-spacing:1px;
+
+text-transform:uppercase;
+
+}
